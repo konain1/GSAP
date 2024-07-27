@@ -12,7 +12,9 @@
 
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 
 
@@ -104,4 +106,93 @@ nav h4{
 .brands img{
     height: 30px;
     
+}
+
+
+.section2{
+    margin-top: 30px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 40px 80px;
+    gap: 10px;
+}
+.services h3{
+    font-size: 50px;
+    background-color: #a9f188;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.services p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 20px;
+}
+
+.container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+   justify-content: space-between;
+   gap: 50px;
+
+}
+
+.elem{
+    flex-shrink: 0;
+    width: 45%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0 15px 0 black;
+    display: flex;
+}
+
+.elem-left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 10px;
+}
+.elem-left h2{
+    font-size: 30px;
+    background-color: #a9f188;
+    width: 70%;
+    border-radius: 20px;
+}
+.elem-left h4{
+    font-size: 20px;
+}
+.elem-left h4 i{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.elem-right{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+.elem-right img{
+    height: 80%;
+}
+
+.black {
+    background-color: #111;
+    color: white;
+    box-shadow: 0 15px 0 rgb(196, 195, 195);
+    /* border: 1px solid white; */
+}
+.black h4 i{
+    border: 1px solid white;
 }
