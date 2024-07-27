@@ -1,0 +1,107 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    position: relative;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+h2{
+    padding: 20px;
+    font-size: 40px;
+}
+
+h2 i {
+    display: inline-block;
+    rotate: 45deg;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.part2 button {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px 25px;
+    background: transparent;
+}
+
+.center{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    padding: 40px 80px; 
+}
+
+.leftCenter{
+    height: 100%;
+    width: 40%;
+
+    
+}
+.leftCenter h1{
+    font-size: 70px;
+    line-height: 1.1;
+}
+.leftCenter p{
+    padding: 20px 10px;
+    line-height: 1.5;
+}
+
+.leftCenter button{
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    background-color: #111;
+    color: white;
+    border-radius: 10px;
+}
+.rightCenter{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.rightCenter img {
+    position: absolute;
+    right: 0;
+    height: 6=80%;
+   
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    bottom: 10px;
+}
+
+.brands img{
+    height: 30px;
+    
+}
